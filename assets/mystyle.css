@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(./fonts/Roboto/Roboto-Regular.ttf);
+}
+
+/* ========================STYLE MAIN PAGE =======================*/
+
+/* Navbar */
+.navbar {
+  background-color: white !important;
+  /* background-color: #cad9df !important: */
+}
+/* Akhir Navbar */
+
+/* About */
+.site-main .about-area {
+  padding: 2rem 1rem;
+}
+
+.site-main .about-area .about-title h2 > span {
+  display: block;
+  font: normal bold 49px/ 60px var(--roboto);
+  letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p {
+  padding: 0.1rem 0;
+}
+/* Akhir About */
+
+/* Carousel */
+.hero {
+  padding-top: 4.3rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 35rem;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 40rem;
+  filter: brightness(60%);
+}
+/* Akhir Carousel */
+
+/* ======================== AKHIR STYLE MAIN PAGE =======================*/
